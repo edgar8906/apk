@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>Edgar</name>
+
+<Preferencia name = "Permisos" value = "none" />
+
+<preference name="splash-screen-duration" value="10000"/>
+
+    
+    <Preferencia  name = "phonegap-version" value = "3.3.0"  />          
+    <Preferencia  name = "orientación"      value = "default"  />  
+    <Preferencia  name = "target-device"    value = "universal"  /> 
+    <Preferencia  name = "pantalla completa"  value = "true"  /> 
+    <Preferencia  name = "android-minSdkVersion" value = "7"  />   
+    <Preferencia  name = "android installLocation-"  value = "auto"  />            
+	
+    <Brecha: Plugin  name = "org.apache.cordova.battery-status"  />
+    <Brecha: Plugin  name = "org.apache.cordova.camera"  />
+    <Brecha: Plugin  name = "org.apache.cordova.media-capture"  />
+    <Brecha: Plugin  name = "org.apache.cordova.console"  />
+    <Brecha: Plugin  name = "org.apache.cordova.contacts"  />
+    <Brecha: Plugin  name = "org.apache.cordova.device"  />
+    <Brecha: Plugin  name = "org.apache.cordova.device-motion"  />
+    <Brecha: Plugin  name = "org.apache.cordova.device orientación"  />
+    <Brecha: Plugin  name = "org.apache.cordova.dialogs"  />
+    <Brecha: Plugin  name = "org.apache.cordova.file"  />
+    <Brecha: Plugin  name = "-transferencia org.apache.cordova.file"  />
+    <Brecha: Plugin  name = "org.apache.cordova.geolocation"  />
+    <Brecha: Plugin  name = "org.apache.cordova.globalization"  />
+    <Brecha: Plugin  name = "org.apache.cordova.inappbrowser"  />
+    <Brecha: Plugin  name = "org.apache.cordova.media"  />
+    <Brecha: Plugin  name = "org.apache.cordova.network-información"  />
+    <Brecha: Plugin  name = "org.apache.cordova.splashscreen"  />
+    <Brecha: Plugin  name = "org.apache.cordova.vibration"  />
+
+Icono<src = "icon.png"  />
+Icono <src = "icon.png" brecha: Plataforma = "android" brecha: densidad = "LDPI"  />
+Icono <src = "icon.png" brecha: Plataforma = "android" brecha: densidad = "MDPI"  />
+Icono <src = "icon.png" brecha: Plataforma = "android" brecha: densidad = "IPAP"  />
+Icono <src = "icon.png" brecha: Plataforma = "android" brecha: densidad = "xhdpi" />
+
+<gap:splash src= "volks.png" gap:platform= "android"  gap:density= "ldpi"  />
+<gap:splash src= "volks.png" gap:platform= "android"  gap:density= "mdpi"  />
+<gap:splash src= "volks.png" gap:platform= "android"  gap:density= "hdpi"  />
+<gap:splash src= "volks.png" gap:platform= "android"  gap:density= "xhdpi"  />
+
+<description>
+Primera Aplicacion Para Android
+</description>
+
+<Acceso  origen = "http://phonegap.com"  subdominios = "true"  />
+
+<author href="https://build.phonegap.com/apps/894170/builds" email="edgar_89_06@hotmail.com">
+Edgar Alam Morales Gomez
+</author>
+
+</widget>
